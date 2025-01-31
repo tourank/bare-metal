@@ -15,4 +15,5 @@ src/firmware.o: src/firmware.c \
  ../libopencm3/include/libopencm3/stm32/pwr.h \
  ../libopencm3/include/libopencm3/stm32/l4/pwr.h \
  ../libopencm3/include/libopencm3/stm32/common/rcc_common_all.h \
- inc/core/system.h inc/common-defines.h inc/core/timer.h
+ ../libopencm3/include/libopencm3/cm3/scb.h inc/core/system.h \
+ inc/common-defines.h inc/core/timer.h
